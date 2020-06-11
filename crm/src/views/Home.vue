@@ -96,11 +96,14 @@ export default {
   width:100%;
 }
   .el-header, .el-footer {
-    background-color: #000;
+    background-color: #B3C0D1;
     text-align: center;
     line-height: 60px;
     height: 60px;
     color:#fff;
+  }
+  .el-header{
+    background: #000;
   }
   .el-aside {
     background-color: #D3DCE6;

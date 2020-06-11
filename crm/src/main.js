@@ -12,8 +12,6 @@ Vue.use(ElementUI);
 //前置守卫
 router.beforeEach((to, from, next) => {
   //根据是否登录来判断 能否进入后续的页面
-document.title = to.meta.til || 'CRM管理系统'
-
  // if(to.name =='login'){
    if(to.path =='/login'){
     //若我们要跳转的本身就是login页 就 不用走下边的判断了
